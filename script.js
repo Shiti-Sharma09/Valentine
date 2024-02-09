@@ -18,7 +18,7 @@ yesButton.addEventListener('click', function () {
     messageElement.textContent = "YEYEYEYEYEYEYEYEYEYEYEYEYEYEY!!!!!!";
 
     // Change the image source
-    catImg.src = './imgg/happy.jpg';
+    catImg.src = 'happy.jpg';
 
     // Trigger confetti shower
     generateConfetti();
@@ -43,5 +43,5 @@ noButton.addEventListener('click', function () {
 
     // Change the image source
     let imageIndex = Math.floor(Math.random() * 8) + 1; // Generate a random index between 1 and 8
-    catImg.src = `./imgg/sed-${imageIndex}.jpg`;
+    catImg.src = `sed-${imageIndex}.jpg`;
 });
